@@ -20,7 +20,8 @@ class MorseCodeDecoder
     message.split('   ').map { |word| decode_word(word) }.join(' ')
   end
 end
+
 # Usage
-message = '.- -... --- -..- ..-. ..- .-.. .-.. --- ..-. .-. ..- -... .. . ...'
+message = ".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ..."
 decoded_message = MorseCodeDecoder.decode(message)
 puts decoded_message
