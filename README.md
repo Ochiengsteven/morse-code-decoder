@@ -1,134 +1,83 @@
+
 <a name="readme-top"></a>
-
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Schema Diagram](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [🎯 Decode a Morse Code Message](#-decode-a-morse-code-message)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+  - [👥 Authors ](#-authors-)
+  - [🤝 Contributing ](#-contributing-)
+  - [👋 Show your support ](#-show-your-support-)
+  - [🔭Acknowledgments ](#acknowledgments-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Marse Code Decoder] <a name="about-project"></a>
+# 🎯 Decode a Morse Code Message<a name="about-project"></a>
 
-> **[Marse-Code-Decoder]** The Ruby-based Morse Decoder is a handy utility designed to transform Morse code into easily readable text. By taking a string of Morse code as input, this tool facilitates communication using a combination of dots and dashes to represent letters, numbers, and symbols.
-
+> In this project, we built our first project in Ruby programming language where to decode a morse message into English words
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
 <details>
-  <summary>Client</summary>
-  <ul>
-    <li></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li></li>
-  </ul>
+  <summary>Ruby</summary>
 </details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-- **[Decode morse codes]**
-- **[words decoding]**
-- **[Senteces decoding]**
-
+- **Decode morse Char**
+- **Decode morse word**
+- **Decode morse message**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
 
-## 🚀 Schema Diagram <a name="live-demo"></a>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+you have to those tools in your local machine.
 
-Example command:
-
-```sh
- Install Ruby
-```
+- [ ] Visual Studio Code
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone the project.
 
-```sh
-  cd my-folder
+```bash
   git clone https://github.com/Ochiengsteven/morse-code-decoder.git
 ```
 
-### Install
+Go to the project directory.
 
-Install this project with:
-
-```sh
-  cd my-folder
-  git clone https://github.com/Ochiengsteven/morse-code-decoder.git
+```bash
+  cd Decode-a-Morse-code-message
 ```
 
-### Usage
+In the project directory, inside the Challenge.rb file. Call the `decode_message` method with your morse message as follows:
 
-To run the project, execute the following command:
-
-```sh
-  cd my-folder
-  git clone https://github.com/Ochiengsteven/morse-code-decoder.git
+```bash
+  message = decode_message(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
+puts message
 ```
 
-### Run tests
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- ### Run tests
 
-To run tests, run the following command:
-
-```sh
-  npm test
-```
-
-### Deployment
-
-You can deploy this project using:
-
-```sh
-  npm run deploy
-```
+```test
+No tests here...
+``` 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,46 +104,35 @@ You can deploy this project using:
 - Twitter: [@ochiengsteven](https://twitter.com/)
 - LinkedIn: [ochiengsteven](https://www.linkedin.com/in/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **[Adding possibility ro decode numbers]**
-- [ ] **[Creating UI so users can decode Morse codes]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-  Contributions, issues, and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!
 
-  Feel free to check the [issues page](https://github.com/ab-noori/Marse-Code-Decoder/issues).
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
-## ⭐️ Show your support <a name="support"></a>
+## 👋 Show your support <a name="support"></a>
 
-  If you like this project, give it a star.
+Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## 🔭Acknowledgments <a name="acknowledgements"></a>
 
-  First, I would like to thank Microverse and my coding partners.
-
+- [Microverse](https://www.microverse.org/).
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
