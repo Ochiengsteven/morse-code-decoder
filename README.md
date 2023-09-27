@@ -107,7 +107,10 @@ No tests here...
 
   ## 🔭 Future Features <a name="future-features"></a>
 
-- **[User Sign up]**
+- **[front-end GUI to input morse code message]**
+- **[front-end GUI to display decoded message]**
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
