@@ -12,6 +12,7 @@
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
   - [👥 Authors ](#-authors-)
+   - [🔭 Future Features](#future-features)
   - [🤝 Contributing ](#-contributing-)
   - [👋 Show your support ](#-show-your-support-)
   - [🔭Acknowledgments ](#acknowledgments-)
@@ -103,6 +104,12 @@ No tests here...
 - GitHub: [@Ochiengsteven](https://github.com/Ochiengsteven)
 - Twitter: [@ochiengsteven](https://twitter.com/)
 - LinkedIn: [ochiengsteven](https://www.linkedin.com/in/)
+
+  ## 🔭 Future Features <a name="future-features"></a>
+
+- **[User Sign up]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
